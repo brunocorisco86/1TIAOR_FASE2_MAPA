@@ -90,7 +90,6 @@ O modelo garante a integridade referencial entre as tabelas, estabelecendo conex
 ## 🛠️ Tecnologias Utilizadas
 
 - Oracle SQL Developer Data Modeler
-- Oracle Database
 
 ---
 
