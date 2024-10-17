@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C2E3E73-ED20-C5EF-216F-D5F391C3A1D5" name="SENSOR">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:41:50 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sensor" id="E678A99D-2B2B-4740-1985-0867DA78AE85">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:41:55 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_sensor" id="830C3957-D22C-3E4A-A473-C1E5B712A40E">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:42:02 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_modelo_sensor" id="DCC9AF43-F622-F22C-1FDC-04873E58502E">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:42:08 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nu_ano_fabricacao" id="D3C17878-46C5-CF05-31BD-B66DF7252443">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:42:21 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_fabricante_sensor" id="D5C924C2-7411-442B-6F81-599724C30DD7">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:43:32 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E43203BE-904B-0A25-6429-4DB01BD41731" name="Sensor PK">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:42:01 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E678A99D-2B2B-4740-1985-0867DA78AE85</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

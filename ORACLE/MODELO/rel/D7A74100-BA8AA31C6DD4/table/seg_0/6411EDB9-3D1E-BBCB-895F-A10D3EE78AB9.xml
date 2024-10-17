@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6411EDB9-3D1E-BBCB-895F-A10D3EE78AB9" name="LEITURA_SENSOR">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>3965F817-D1EA-9330-DFF7-DBA8C8CE6D07</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_leitura" id="A9EBAAED-F173-2120-0868-646DA2CF90A7">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>9EE7C0BA-C58F-797B-9DEA-339CD49D5573</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_sensor" id="C901E771-F3DA-F0EB-CF3A-D51EDE2478F3">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>99DB88A4-8B8F-823E-8D41-F68DF1460119</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E913F7BD-93FE-2A6E-D323-BF2F2BB63950" referredColumn="0D5CA79B-FD2A-09ED-2F5A-0B56C50FD474"/>
+</associations>
+</Column>
+<Column name="dh_inicio_leitura" id="C01C57D4-7CC7-F722-3C65-91BF9E80F37C">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>7567305D-A682-0BCD-FE29-560A5562B9C8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dh_leitura_fim" id="3D1ED9B6-5D27-1921-2A07-CD99F7E8FBF0">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>C4758A29-CA0B-7871-9D81-29C8FF2CA873</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_referencia" id="E04832D3-C2E1-7166-A0DF-24A079FD9E10">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>004DE2F1-6D17-7959-8F9F-165E4DD78B92</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C315EFC8-0DCE-04E4-6DDA-C86B638068ED" name="PK_LEITURA_SENSOR">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>2FB617C5-C8A5-1C8C-5E90-98CC1F287DE1</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9EBAAED-F173-2120-0868-646DA2CF90A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2386768C-CFBB-EF4C-7FCD-4E3479CFFD70" name="UN_LEITURA_SENSOR_ID">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:37:40 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9EBAAED-F173-2120-0868-646DA2CF90A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D94AC4F-3396-232D-089D-7DA712E9706A" name="FK_LEITURA_SENSOR_SENSOR">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>C6B08004-8773-3492-B732-0C2FAFBF672D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C901E771-F3DA-F0EB-CF3A-D51EDE2478F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_LEITURA_SENSOR_valor" directorySegmentName="seg_0" id="4B153E2E-F912-D0FD-C531-C976A5DF40BE">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:43:26 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<rule><![CDATA[vl_referencia>0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

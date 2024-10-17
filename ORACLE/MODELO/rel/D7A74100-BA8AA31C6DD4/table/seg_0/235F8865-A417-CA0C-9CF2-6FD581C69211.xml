@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="235F8865-A417-CA0C-9CF2-6FD581C69211" name="PRODUTOR">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>A44FF5E7-E813-B2E0-2C53-8A0D254B1A32</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produtor" id="5E2E20E8-DCE8-C1FE-4652-C032DBF82904">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>D556E684-F5D4-F3C7-8729-F249BDEEC539</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_produtor" id="45797033-64A0-D0E8-2BA4-82EE54DE9AFA">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>E52B9721-7CBE-2D13-2190-1DA3EE54ED74</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nu_telefone" id="BF58365A-286E-0EA4-A157-1F4EA2F453EB">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>367ABD98-B228-6CE5-CFC0-0492A0D55CA4</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="34056EDE-583A-A5CB-B73D-941F01A094C0">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>218C0616-9429-BD36-A0D2-56BF2E0D0567</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nu_cpf_produtor" id="C1ABD0E0-B17B-6F22-0FA1-408406CF9CEC">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>1F7EE5C7-38C5-57F1-F030-E88888CD0722</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="C1D869D0-BBA3-1B96-3879-150CA3E61B6B">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>806E62E2-658D-1FB0-0D55-98F58E6F08D5</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ic_ativo" id="20AE4F31-7855-4433-D0AD-07751D5F62CB">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>70661173-7857-04C0-9BB2-D3CC112ABA38</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E16B4FDE-15BE-30D7-6628-E6DC0912C6D0" name="PK_PRODUTOR">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>3EB7D042-82E3-9DE4-3135-DF9B9E30A01D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E2E20E8-DCE8-C1FE-4652-C032DBF82904"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="081AEB1D-DE60-9D86-FBD7-272D4D1227B0" name="UN_PROD_ID">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:37:54 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E2E20E8-DCE8-C1FE-4652-C032DBF82904"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE882A63-F43A-BBC1-A1DD-468A9F44EDFD" name="CULTURA">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>107DCC9D-0C34-7F1A-2C41-5605FEE5FBDD</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cultura" id="ACF88100-4B2D-AAAF-1899-4C01EA6F624E">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>F76998FC-4ADA-70E5-C784-C91D1D9E431A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_produtor" id="DC74FB3D-FC63-3087-9F52-67B72D36F6E9">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>45624574-0955-4567-B38F-5F15179F118A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A51A503F-01A3-C635-93C0-6A2590D35DD3" referredColumn="5E2E20E8-DCE8-C1FE-4652-C032DBF82904"/>
+</associations>
+</Column>
+<Column name="id_plantacao" id="0100CC03-FC33-08AE-0FBC-DBA0A05BEED5">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>DFE9ABDA-91B8-2568-7262-A70600DD9B69</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DAE8A73-6192-670A-66A1-4402E13792C6" referredColumn="C89B613C-B093-BA5C-4A05-576682979ED1"/>
+</associations>
+</Column>
+<Column name="id_leitura" id="65894C82-C89E-5F87-8B75-8F14669C0C61">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>26FCC65A-00C2-7BD8-5679-0B743FCBAE05</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4687278F-876F-4C5E-1565-AC809F8B8501" referredColumn="A9EBAAED-F173-2120-0868-646DA2CF90A7"/>
+</associations>
+</Column>
+<Column name="nm_cultura" id="1202E449-36C0-DF26-A8FB-E9520D8039B4">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>E78FF34F-0B66-8EC0-188E-E31D648275C8</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio_plantio" id="7AE41545-ECA2-B9C1-ACE3-99880C41B454">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>306FDC8C-E8E3-66EA-5CD0-5C612A31A353</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim_plantio" id="664B5EB2-9D0F-7B86-D71E-2FF2685E1477">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>085CCE59-03A2-84AD-970A-A61C96C3D068</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_colheita" id="1F2CDEFE-165D-66C0-2E01-77356E8D2E64">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>0A46B940-FB45-1C81-1F2C-DFE4A2C9C1B5</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84610356-F1DF-F8EC-A2E4-AE5EA680A298" name="PK_CULTURA">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>BD1C37A5-0AD2-5580-D5F3-D20F9A41F41E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACF88100-4B2D-AAAF-1899-4C01EA6F624E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57E0F7B0-BF5F-E4AC-9BCE-0E77215CF43D" name="UN_CULTURA_ID">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:37:09 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACF88100-4B2D-AAAF-1899-4C01EA6F624E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0778BAEA-6AEF-A211-63A5-2D1D7E8E1826" name="FK_CULTURA_LEITURA_SENSOR">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>83C1F26C-409B-7CCA-DA66-FCA6EB55C786</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65894C82-C89E-5F87-8B75-8F14669C0C61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCAD8F61-D31B-2554-77D9-417E40AED34C" name="FK_CULTURA_PRODUTOR">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>0010D540-895F-48B9-0ED8-3BE15195FD91</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC74FB3D-FC63-3087-9F52-67B72D36F6E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A04F9AD-2D77-5C85-AB25-30B14A2768D3" name="FK_CULTURA_PLANTACAO">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>00CAC7AE-888D-9977-9CE0-27436CFAB52A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0100CC03-FC33-08AE-0FBC-DBA0A05BEED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_CULTURA_data" directorySegmentName="seg_0" id="3A0CEC42-BD77-401A-A9C1-57B18B7EEBA3">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:38:44 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<rule><![CDATA[dt_inicio_plantio<dt_inicio_colheita]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

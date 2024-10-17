@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="faz leitura" directorySegmentName="seg_0" id="83C1F26C-409B-7CCA-DA66-FCA6EB55C786">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-10-16 23:22:54 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<sourcePk>2FB617C5-C8A5-1C8C-5E90-98CC1F287DE1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3965F817-D1EA-9330-DFF7-DBA8C8CE6D07</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>107DCC9D-0C34-7F1A-2C41-5605FEE5FBDD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

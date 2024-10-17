@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="recebe sensor" directorySegmentName="seg_0" id="C340E746-1E66-5D31-9046-A988D691FA92">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-10-16 23:22:19 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<sourcePk>E43203BE-904B-0A25-6429-4DB01BD41731</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C2E3E73-ED20-C5EF-216F-D5F391C3A1D5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>706A3DFE-AB2F-384D-A5E0-82F68E4E8146</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

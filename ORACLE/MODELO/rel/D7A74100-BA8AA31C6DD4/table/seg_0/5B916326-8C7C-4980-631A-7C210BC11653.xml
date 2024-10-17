@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B916326-8C7C-4980-631A-7C210BC11653" name="PLANTACAO">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>706A3DFE-AB2F-384D-A5E0-82F68E4E8146</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_plantacao" id="C89B613C-B093-BA5C-4A05-576682979ED1">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[talhao de terra]]></commentInRDBMS>
+<generatorID>DD970C87-546B-7703-DA16-868096CD870E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_sensor" id="D6E9755F-3569-7079-7A4B-CF54B40FAD3E">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>C0861285-B54A-6769-4911-96AEC4B5D9D2</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C42ED0D7-B15E-37AA-6B97-9E73CD347909" referredColumn="0D5CA79B-FD2A-09ED-2F5A-0B56C50FD474"/>
+</associations>
+</Column>
+<Column name="nu_area_plantacao" id="FCAA5EBC-CC59-BDCE-B347-14DBFBC16B7D">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>34F8A31D-D283-41C7-87E1-54F1E07707E9</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nu_coordenadas_plantacao_wkt" id="50A08C0F-C322-B678-D4BA-FCC961A8417B">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>4A98A51E-B92D-B0B2-6AC1-C5CB2A4C6860</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>125</dataTypeSize>
+<ownDataTypeParameters>125,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDE1BB71-6E4B-B2DE-32A4-570C70B8C777" name="PK_PLANTACAO">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>701FF679-D371-688A-B9A2-C0B6AE14C676</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C89B613C-B093-BA5C-4A05-576682979ED1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D65E3350-1FDA-5F9B-19E5-D853FED03127" name="UN_PLANTACAO_ID">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:51 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C89B613C-B093-BA5C-4A05-576682979ED1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA84D24A-3604-F3E9-0D69-A907A1C4869A" name="FK_PLANTACAO_SENSOR">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>C340E746-1E66-5D31-9046-A988D691FA92</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6E9755F-3569-7079-7A4B-CF54B40FAD3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_PLANTACAO_area" directorySegmentName="seg_0" id="AF7EFD40-10EC-52E7-F111-D22D6CA7EFB4">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:51 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<rule><![CDATA[nu_area_plantacao>0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

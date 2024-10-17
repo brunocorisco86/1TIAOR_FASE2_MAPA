@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FE14B1F-56ED-7BE6-349D-E0EDC3A20B73" name="AJUSTE_APLICACAO">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>C7AF1F26-8BAB-2762-0B43-30D5FA3B28DA</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ajuste" id="39893E1B-FBDA-BACE-D7CD-42C325C208E9">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>D07D8850-3833-BF17-85F2-B286E919EE2D</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_produtor" id="436873EA-F274-2AC3-AFFF-49D7EBFC243D">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>4ADAA152-B446-94A4-975A-2AE51C9500C6</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05F58D54-5191-77F1-1ECF-9DACC0588C65" referredColumn="5E2E20E8-DCE8-C1FE-4652-C032DBF82904"/>
+</associations>
+</Column>
+<Column name="tp_ajuste" id="4480DD73-A848-D058-6F31-BB273B8B5C92">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>673865AC-5E7A-D7F7-5B70-C0226C23A33F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dh_ajuste" id="6F6AF20A-249F-0CD7-6E02-D188B3D34376">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>A4A00B27-2F6A-8EEC-7055-6AD602080655</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_ajustado" id="54AE73F0-D887-DDDB-391C-18B512617A5F">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Agua ou nutriente]]></commentInRDBMS>
+<generatorID>A34DAF67-7855-AF24-1088-CADFC1BB6BB3</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8DBD1D2-E8F1-92E0-B4F8-FFCDECA55F56" name="PK_AJUSTE_APLICACAO">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>EC6C2CD3-6AF2-FDB6-C60A-3C80EEF9014F</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39893E1B-FBDA-BACE-D7CD-42C325C208E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB9434EC-8D75-59FE-711F-4453E53986C7" name="UN_AJUSTE_APLICACAO_ID">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:37:17 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39893E1B-FBDA-BACE-D7CD-42C325C208E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB8D71E5-E54F-28F7-8B9F-0BCD5D7C44B0" name="FK_AJUSTE_APLICACAO_PRODUTOR">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>36106E1C-FB66-50AA-9B42-5C376FD11171</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="436873EA-F274-2AC3-AFFF-49D7EBFC243D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_AJ_APLIC_ajuste" directorySegmentName="seg_0" id="1D9EB539-F2C7-3E7A-3F24-F4D76D15DE08">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:39:22 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<rule><![CDATA[vl_ajustado>0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_AJ_APLIC_tipo_ajuste" directorySegmentName="seg_0" id="785B9384-AC16-77B6-044E-21B892B6EF2B">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:40:00 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<rule><![CDATA[tp_ajuste IN ("Irrigação", "Nutriente")]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

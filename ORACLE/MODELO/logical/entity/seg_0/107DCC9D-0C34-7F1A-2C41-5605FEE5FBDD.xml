@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="107DCC9D-0C34-7F1A-2C41-5605FEE5FBDD" name="CULTURA">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:49:59 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cultura" id="F76998FC-4ADA-70E5-C784-C91D1D9E431A">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-10-16 23:18:45 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produtor" id="45624574-0955-4567-B38F-5F15179F118A">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-10-16 23:24:09 UTC</createdTime>
+<generatorID>0010D540-895F-48B9-0ED8-3BE15195FD91</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<referedAttribute>D556E684-F5D4-F3C7-8729-F249BDEEC539</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cultura" id="E78FF34F-0B66-8EC0-188E-E31D648275C8">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:50:13 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio_plantio" id="306FDC8C-E8E3-66EA-5CD0-5C612A31A353">
+<createdBy>user</createdBy>
+<createdTime>2024-10-16 00:41:15 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fim_plantio" id="085CCE59-03A2-84AD-970A-A61C96C3D068">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-10-16 23:19:08 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_colheita" id="0A46B940-FB45-1C81-1F2C-DFE4A2C9C1B5">
+<createdBy>user</createdBy>
+<createdTime>2024-10-16 00:41:26 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plantacao" id="DFE9ABDA-91B8-2568-7262-A70600DD9B69">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-10-16 23:20:48 UTC</createdTime>
+<generatorID>00CAC7AE-888D-9977-9CE0-27436CFAB52A</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<referedAttribute>DD970C87-546B-7703-DA16-868096CD870E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_leitura" id="26FCC65A-00C2-7BD8-5679-0B743FCBAE05">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-10-16 23:22:54 UTC</createdTime>
+<generatorID>83C1F26C-409B-7CCA-DA66-FCA6EB55C786</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<referedAttribute>9EE7C0BA-C58F-797B-9DEA-339CD49D5573</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD1C37A5-0AD2-5580-D5F3-D20F9A41F41E" name="Cultura PK">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:50:12 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F76998FC-4ADA-70E5-C784-C91D1D9E431A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

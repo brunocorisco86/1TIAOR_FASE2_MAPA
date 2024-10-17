@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7AF1F26-8BAB-2762-0B43-30D5FA3B28DA" name="AJUSTE_APLICACAO">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:45:56 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ajuste" id="D07D8850-3833-BF17-85F2-B286E919EE2D">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:47:33 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produtor" id="4ADAA152-B446-94A4-975A-2AE51C9500C6">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-10-16 23:27:33 UTC</createdTime>
+<generatorID>36106E1C-FB66-50AA-9B42-5C376FD11171</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<referedAttribute>D556E684-F5D4-F3C7-8729-F249BDEEC539</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_ajuste" id="673865AC-5E7A-D7F7-5B70-C0226C23A33F">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:46:35 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dh_ajuste" id="A4A00B27-2F6A-8EEC-7055-6AD602080655">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:46:08 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_ajustado" id="A34DAF67-7855-AF24-1088-CADFC1BB6BB3">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:46:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Agua ou nutriente]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC6C2CD3-6AF2-FDB6-C60A-3C80EEF9014F" name="Ajuste_Aplicação PK">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:46:21 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D07D8850-3833-BF17-85F2-B286E919EE2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B537037D-6229-7973-7A5A-7F20C72D2D98" name="SENSOR">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>8C2E3E73-ED20-C5EF-216F-D5F391C3A1D5</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sensor" id="0D5CA79B-FD2A-09ED-2F5A-0B56C50FD474">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>E678A99D-2B2B-4740-1985-0867DA78AE85</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_sensor" id="2E54945E-3F6E-20F7-46A6-A75A11E59FD9">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>830C3957-D22C-3E4A-A473-C1E5B712A40E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_modelo_sensor" id="CC8BDC50-293B-1779-B038-F00E3114BC57">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>DCC9AF43-F622-F22C-1FDC-04873E58502E</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nu_ano_fabricacao" id="CEEA5CC8-B703-904D-46CA-941ACFBBF842">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>D3C17878-46C5-CF05-31BD-B66DF7252443</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_fabricante_sensor" id="63E6C52B-7D4E-2549-05A2-0D83611A4A89">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>D5C924C2-7411-442B-6F81-599724C30DD7</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8BB48B3-5133-AEFE-4E7C-2E8792E251F6" name="PK_SENSOR">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:36:08 UTC</createdTime>
+<generatorID>E43203BE-904B-0A25-6429-4DB01BD41731</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D5CA79B-FD2A-09ED-2F5A-0B56C50FD474"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDE4B956-1FBC-A7C3-30FC-AFC5F0850F02" name="UN_SENSOR_ID">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 00:38:01 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D5CA79B-FD2A-09ED-2F5A-0B56C50FD474"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SENSOR_1" directorySegmentName="seg_0" id="2E227740-0F6B-3188-7A04-CB93C5A788CC">
+<createdBy>user</createdBy>
+<createdTime>2024-10-17 01:24:39 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<rule><![CDATA[tp_sensor IN ("S1", "S2", "S3")]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="706A3DFE-AB2F-384D-A5E0-82F68E4E8146" name="PLANTACAO">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:29:58 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plantacao" id="DD970C87-546B-7703-DA16-868096CD870E">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:30:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[talhao de terra]]></commentInRDBMS>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sensor" id="C0861285-B54A-6769-4911-96AEC4B5D9D2">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-10-16 23:22:19 UTC</createdTime>
+<generatorID>C340E746-1E66-5D31-9046-A988D691FA92</generatorID>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<referedAttribute>E678A99D-2B2B-4740-1985-0867DA78AE85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nu_area_plantacao" id="34F8A31D-D283-41C7-87E1-54F1E07707E9">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:38:43 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nu_coordenadas_plantacao_wkt" id="4A98A51E-B92D-B0B2-6AC1-C5CB2A4C6860">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-10-16 23:07:54 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>MAX</dataTypeSize>
+<ownDataTypeParameters>MAX,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="701FF679-D371-688A-B9A2-C0B6AE14C676" name="Plantação PK">
+<createdBy>user</createdBy>
+<createdTime>2024-10-15 23:30:11 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD970C87-546B-7703-DA16-868096CD870E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

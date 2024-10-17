@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="gera dado" directorySegmentName="seg_0" id="C6B08004-8773-3492-B732-0C2FAFBF672D">
+<createdBy>Fabio</createdBy>
+<createdTime>2024-10-16 23:23:25 UTC</createdTime>
+<ownerDesignName>MODELO</ownerDesignName>
+<engineerTo>
+<item key="D7A74100-6514-AEA2-273E-BA8AA31C6DD4" value="true"/>
+</engineerTo>
+<sourcePk>E43203BE-904B-0A25-6429-4DB01BD41731</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C2E3E73-ED20-C5EF-216F-D5F391C3A1D5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3965F817-D1EA-9330-DFF7-DBA8C8CE6D07</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
